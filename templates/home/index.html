@@ -5,8 +5,9 @@
     <div class="container-center">
         <h1>Personal Library</h1>
 
-        <div hx-get="/audio/selection" hx-trigger="load" id="audio">
+        <div id="music-display" hx-get="/artists" hx-trigger="load">
         </div>
+
     </div>
 </div>
 {% endblock %}
